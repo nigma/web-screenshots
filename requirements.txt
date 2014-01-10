@@ -1,0 +1,5 @@
+flask==0.10.1
+newrelic==2.8.0.7
+selenium==2.39.0
+werkzeug==0.9.4
+uWSGI==2.0

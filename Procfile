@@ -1,0 +1,1 @@
+web: newrelic-admin run-program uwsgi --http-socket :$PORT --master --single-interpreter --enable-threads --processes 4 --die-on-term --harakiri 30 --harakiri-verbose --max-requests 100 --module app:app --memory-report
